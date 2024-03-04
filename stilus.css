@@ -1,0 +1,121 @@
+˙{
+  box-sizing: border-box;
+  
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+  background-color: #696969; /* Light gray background color */
+  color: #333; /* Dark gray font color */
+  font-size: 16px; /* Default font size */
+}
+
+
+header {
+  background-color: #4c494e;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  background-color: #fda829;
+  float: left;
+  width: 20%;
+  height: 800px;
+  padding-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(254, 254, 250);
+}
+
+.btnnav {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #014e12;
+  box-shadow: 0 1px 3px rgba(32, 10, 10, 0.12), 0 1px 2px rgba(255, 19, 19, 0.24);
+  transition: background-color 0.3s ease;
+
+}
+
+.btnnav:hover {
+  background-color: #3e5c66e5;
+}
+
+article {
+  background-color: #9c9c9c;
+  float: left;
+  width: 80%;
+}
+
+footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.doboz {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #0d6153b2;
+  margin: 20px;
+  
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #054179;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+h2{
+  text-shadow: 2px 2px 5px rgb(114, 134, 1);
+}
